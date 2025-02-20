@@ -1,10 +1,10 @@
 # loxcan
-[![Latest Stable Version](https://poser.pugx.org/siketyan/loxcan/v)](https://packagist.org/packages/siketyan/loxcan)
-[![Total Downloads](https://poser.pugx.org/siketyan/loxcan/downloads)](https://packagist.org/packages/siketyan/loxcan)
-[![License](https://poser.pugx.org/siketyan/loxcan/license)](https://packagist.org/packages/siketyan/loxcan)
-[![Codecov](https://codecov.io/gh/siketyan/loxcan/branch/master/graph/badge.svg?token=2DB0MRBL4E)](https://codecov.io/gh/siketyan/loxcan)
-![PHP](https://github.com/siketyan/loxcan/workflows/PHP/badge.svg)
-![Action](https://github.com/siketyan/loxcan/workflows/Action/badge.svg)
+[![Latest Stable Version](https://poser.pugx.org/ArminScoins/loxcan/v)](https://packagist.org/packages/ArminScoins/loxcan)
+[![Total Downloads](https://poser.pugx.org/ArminScoins/loxcan/downloads)](https://packagist.org/packages/ArminScoins/loxcan)
+[![License](https://poser.pugx.org/ArminScoins/loxcan/license)](https://packagist.org/packages/ArminScoins/loxcan)
+[![Codecov](https://codecov.io/gh/ArminScoins/loxcan/branch/master/graph/badge.svg?token=2DB0MRBL4E)](https://codecov.io/gh/ArminScoins/loxcan)
+![PHP](https://github.com/ArminScoins/loxcan/workflows/PHP/badge.svg)
+![Action](https://github.com/ArminScoins/loxcan/workflows/Action/badge.svg)
 
 Universal Lock File Scanner for Git.
 
@@ -31,7 +31,7 @@ So we can check what packages will be changed by the PR, in the review.
 ## ✨ Usage
 ### Via Composer
 ```console
-$ composer require --dev siketyan/loxcan
+$ composer require --dev ArminScoins/loxcan
 ```
 
 Then you can use this tool in CLI.
@@ -46,11 +46,11 @@ Use `pull_request` events to trigger the action.
 
 ```yaml
 steps:
-  - uses: actions/checkout@v3
+  - uses: actions/checkout@V3
     with:
       fetch-depth: 0
 
-  - uses: siketyan/loxcan@main
+  - uses: ArminScoins/loxcan@main
 ```
 
 ## 📦 Supported Package Managers
