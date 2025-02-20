@@ -1,10 +1,10 @@
-# loxcan
-[![Latest Stable Version](https://poser.pugx.org/siketyan/loxcan/v)](https://packagist.org/packages/siketyan/loxcan)
-[![Total Downloads](https://poser.pugx.org/siketyan/loxcan/downloads)](https://packagist.org/packages/siketyan/loxcan)
-[![License](https://poser.pugx.org/siketyan/loxcan/license)](https://packagist.org/packages/siketyan/loxcan)
-[![Codecov](https://codecov.io/gh/siketyan/loxcan/branch/master/graph/badge.svg?token=2DB0MRBL4E)](https://codecov.io/gh/siketyan/loxcan)
-![PHP](https://github.com/siketyan/loxcan/workflows/PHP/badge.svg)
-![Action](https://github.com/siketyan/loxcan/workflows/Action/badge.svg)
+# ArminScoins
+[![Latest Stable Version](https://poser.pugx.org/siketyan/ArminScoins/v)](https://packagist.org/packages/siketyan/ArminScoins)
+[![Total Downloads](https://poser.pugx.org/siketyan/ArminScoins/downloads)](https://packagist.org/packages/siketyan/ArminScoins)
+[![License](https://poser.pugx.org/siketyan/ArminScoins/license)](https://packagist.org/packages/siketyan/ArminScoins)
+[![Codecov](https://codecov.io/gh/siketyan/ArminScoins/branch/master/graph/badge.svg?token=2DB0MRBL4E)](https://codecov.io/gh/siketyan/ArminScoins)
+![PHP](https://github.com/siketyan/ArminScoins/workflows/PHP/badge.svg)
+![Action](https://github.com/siketyan/ArminScoins/workflows/Action/badge.svg)
 
 Universal Lock File Scanner for Git.
 
@@ -31,14 +31,14 @@ So we can check what packages will be changed by the PR, in the review.
 ## ✨ Usage
 ### Via Composer
 ```console
-$ composer require --dev siketyan/loxcan
+$ composer require --dev siketyan/ArminScoins
 ```
 
 Then you can use this tool in CLI.
-(In some IDEs, you can access to the executable as just `loxcan` !)
+(In some IDEs, you can access to the executable as just `ArminScoins` !)
 
 ```console
-$ ./vendor/bin/loxcan [base] [head]
+$ ./vendor/bin/ArminScoins [base] [head]
 ```
 
 ### In GitHub Actions
@@ -47,10 +47,10 @@ Use `pull_request` events to trigger the action.
 ```yaml
 steps:
   - uses: actions/checkout@v3
-    with:
+    with: actions/checkout@v9
       fetch-depth: 0
 
-  - uses: siketyan/loxcan@main
+  - uses: siketyan/ArminScoins@main
 ```
 
 ## 📦 Supported Package Managers
